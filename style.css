@@ -1,0 +1,149 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* custom font */
+
+@font-face {
+  font-family: "Saiko";
+  src: url("/saik.otf") format("woff2"), url("/saik.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "DM Mono", monospace;
+}
+h1 {
+  font-family: "Saiko", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url(/images/bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 90vh;
+  position: relative;
+  color: #fff;
+}
+main {
+  position: relative;
+}
+
+.item {
+  font-size: 23px;
+}
+.nav_pad {
+  padding: 30px 0 0 40px;
+}
+.first_txt h1 {
+  position: absolute;
+  left: 35%;
+  top: 49%;
+}
+
+.first_txt img {
+  position: absolute;
+  width: 87px;
+  top: 1%;
+  left: 65%;
+}
+.first_txt h1,
+.second_txt h1,
+.third_txt h1 {
+  font-size: 13em;
+  text-transform: uppercase;
+}
+
+.second_txt h1 {
+  position: absolute;
+  left: 19%;
+  top: 290%;
+}
+.third_txt h1 {
+  position: absolute;
+  left: 4%;
+  top: 530%;
+}
+.main_txt p {
+  font-size: 20px;
+  text-align: center;
+  width: 490px;
+  position: absolute;
+  top: 550%;
+  right: 20%;
+}
+.trd_right_star {
+  position: absolute;
+  right: 43%;
+  top: 590%;
+}
+
+img.right_img {
+  position: absolute;
+  width: 44px;
+  right: 28%;
+  top: 374%;
+}
+
+img.tp_img {
+  position: absolute;
+  top: 191%;
+  left: 4%;
+  width: 80px;
+}
+
+img.bottom_img {
+  position: absolute;
+  top: 360%;
+  left: 5%;
+  width: 80px;
+}
+.copy_txt_lg {
+  position: absolute;
+  top: 450%;
+  left: 8%;
+  font-size: 28px;
+}
+img.top_img {
+  position: absolute;
+  right: 61%;
+  top: 250%;
+  width: 60px;
+}
+.cont-fluid {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.top_footer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+.top_footer h2 {
+  font-size: 8em;
+  font-family: "Saiko", sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  color: #000 !important;
+}
+.copy_txt {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
