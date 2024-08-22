@@ -36,6 +36,11 @@ main {
 .nav_pad {
   padding: 30px 0 0 40px;
 }
+
+.logo-img{
+  width: 80px;
+}
+
 .first_txt h1 {
   position: absolute;
   left: 35%;
@@ -198,6 +203,60 @@ img.top_img {
   width: 130px;
 }
 }
+
+@media screen and (max-width: 1440px) {
+
+  .logo-img{
+    width: 55px;
+  }
+
+  .nav_pad {
+    padding: 10px 0 0 40px;
+  }
+
+  .first_txt h1,
+  .second_txt h1,
+  .third_txt h1 {
+    font-size: 6em;
+    text-transform: uppercase;
+  }
+  .first_txt h1 {
+    left: 50%;
+    top: 80%;
+  }
+
+  .second_txt h1 {
+    left: 35%;
+    top: 235%;
+  }
+
+  .copy_txt_lg {
+    font-size: 18px;
+  }
+
+  .top_footer h2{
+    font-size: 4.5em;
+  }
+
+
+  .footer{
+    padding: 10px 0;
+  }
+}
+
+.footer-lg{
+  width: 100px;
+}
+
+.main_txt p {
+  font-size: 15px;
+  top: 392%;
+}
+
+.main_txt p{
+  width: 440px;
+}
+
 @media only screen and (max-width: 768px) {
   .lg_device {
     display: none;
@@ -212,16 +271,17 @@ img.top_img {
   }
   .ban_mob {
     padding-top: 40px;
+    margin-top: 10px;
   }
   .first_txt h1 {
     position: static;
-    font-size: 3em;
-    margin-left: 26%;
+    font-size: 2.8em;
+    margin-left: 24%;
   }
 
   .second_txt h1 {
     position: static;
-    font-size: 3em;
+    font-size: 2.8em;
     margin-left: 18%;
     margin-top: -21px;
   }
@@ -299,7 +359,7 @@ img.top_img {
     position: static;
     font-size: 3em;
     margin-left: 18%;
-    margin-top: 15px;
+    margin-top: 45px;
   }
   .third_txt h1 {
     position: static;
@@ -316,7 +376,8 @@ img.top_img {
   }
 
   .main_txt p {
-    font-size: 18px;
+    font-size: 15px;
+    /* line-height: 0px; */
     text-align: center;
     max-width: 490px;
     width: 95%;
